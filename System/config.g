@@ -1,3 +1,7 @@
+
+Temperature Chart
+System Directory
+0:/sys/config.g
 ; #######################################################################
 ; ###### RRF3 Configuration file for RailcoreII ZL Series Printers ######
 ; #######################################################################
@@ -8,7 +12,7 @@
 ; RRF3 Pin Names:            https://duet3d.dozuki.com/Wiki/RepRapFirmware_3_overview#Section_Pin_names_for_Duet_2_WiFi_Ethernet
 
 ; #### Debugging
-M111 S0                     ; Debug off
+M111 S1                     ; Debug on
 M929 P"eventlog.txt" S1     ; Start logging to file eventlog.txt
 M550 P"Duet"                ; Machine name and Netbios name (can be anything you like)
 M552 S1                     ; Enable networking
@@ -89,7 +93,7 @@ M558 T18000 F150                  ; Set Z probe Travel speed
 ; ####  Set axis minima:maxima switch positions
 ; Adjust to suit your machine and to make X=0 and Y=0 the edges of the bed
 ;M208 X0:250 Y0:250 Z-0.2:230      ; Conservative 300ZL/T settings (or 250ZL) ; These values are conservative to start with, adjust during commissioning.
-M208 X-20:280 Y-10:265 Z0:600        ; 300ZL
+M208 X-20:265 Y-10:265 Z0:600        ; 300ZL
 
 ; #### Tool definitions
 ; #####################
@@ -182,6 +186,7 @@ G10 P0 R0 S0                                 ; set initial tool 0 active and sta
 G91                               ; Send relative coordinates.
 G1 Z0.001 F99999 H2               ; Engage motors to prevent bed from moving after power on.
 G90                               ; Send absolute coordinates.
+
 
 
 
