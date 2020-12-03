@@ -1,8 +1,8 @@
-; config-override.g file generated in response to M500 at 2020-11-29 15:56
+; config-override.g file generated in response to M500 at 2020-12-02 15:16
 
 ; Heater model parameters
-M307 H0 A205 C934.0 D5.3 S1.0 V24.2 B0
-M307 H1 A316.5 C225.6 D2.9 S1.0 V24.1 B0
+M307 H0 A184.6 C514.0 D0.9 S1.0 V24.2 B0
+M307 H1 A282.3 C200.8 D2.9 S1.0 V24.2 B0
 ; Workplace coordinates
 G10 L2 P1 X0.00 Y0.00 Z0.00
 G10 L2 P2 X0.00 Y0.00 Z0.00
