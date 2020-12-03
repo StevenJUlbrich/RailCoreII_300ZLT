@@ -18,7 +18,9 @@ Hemera Hot End with Volcano 0.40 nozzle
 
 Stepper Motors
 
-All Z motors 1.8-degree E3D high torque motors.  The motors are taller than normal and will not work with normal case feet.  Please note the connection in the Duet board from each location.  It is important for declaring the motors and providing axis locations.
+All Z motors 1.8-degree E3D high torque motors.  The motors are taller than normal thus the normal case feet will not work with normal case feet.  
+            Please note the connection in the Duet board from each location.  It is important for declaring the motors and providing axis locations.
+
 X and Y are Nema 17 0.9-degree with high torque output also.  I felt that a heavy hot end will put strain on the motors and sometimes more is better.
 
 Lead Screws
