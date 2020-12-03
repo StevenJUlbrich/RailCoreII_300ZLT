@@ -7,6 +7,7 @@ Physical setup
 
 Duet 3 with SBC Raspberry Pi 4 with 4 meg of memory 
 The 5 volts supplied to the SBC and Duet are separate. Please review of the jumper settings to ensure the Duet 3 is not trying get or supply power to the SBC.  The reason for separate power supplies are centered on the fact that RPi4 require more power than a version 3.  I did not was a drop in power to either board and cause damage.
+
 SBC – Configuration 
 I use WINSCP and the directory /opt/dsf/sd/ is the location for the configuration files.  It will make it easier to copy, backup or post for help.
 
